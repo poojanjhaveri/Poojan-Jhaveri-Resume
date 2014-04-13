@@ -149,46 +149,174 @@
             </objects>
             <point key="canvasLocation" x="390" y="-597"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="sRP-hr-FUr">
+        <!--Education Page View Controller-->
+        <scene sceneID="0RH-F9-0mc">
             <objects>
-                <viewController id="TAT-S7-fjk" customClass="PJ_ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TA_ITP" id="5Ek-Bg-hRP" customClass="PJ_EducationPageViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Y6M-2A-dnT"/>
-                        <viewControllerLayoutGuide type="bottom" id="ruw-e2-kIa"/>
+                        <viewControllerLayoutGuide type="top" id="5S3-S5-f8p"/>
+                        <viewControllerLayoutGuide type="bottom" id="RlH-lT-l1d"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xtd-ez-bbI">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <view key="view" contentMode="scaleToFill" id="QRc-m2-wXw">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="University of Southern California" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="219" translatesAutoresizingMaskIntoConstraints="NO" id="dDe-IY-fE5">
+                                <rect key="frame" x="77" y="0.0" width="219" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="January 2013 - Present" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="219" translatesAutoresizingMaskIntoConstraints="NO" id="s1Z-vf-t8X">
+                                <rect key="frame" x="77" y="30" width="219" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student Worker - Teaching Assistant and Grader" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="GTi-aC-5as">
+                                <rect key="frame" x="0.0" y="68" width="300" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ITP_Logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="xNg-dP-C1B">
+                                <rect key="frame" x="9" y="0.0" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYj-Vn-aOD">
+                                <rect key="frame" x="0.0" y="122" width="300" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">ITP 140 : Mobile Application Technologies Course - Assist students in learning the basics of mobile application technologies, wire-framing and prototyping apps on different devices using various prototyping tools such as Fluid UI, Balsamiq etc.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWn-VP-iKn">
+                                <rect key="frame" x="0.0" y="262" width="300" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">ITP 342 : Mobile Application Development (iOS) Assist students in learning the basics of Objective – C and Xcode IDE.
+Help students with class assignments during lab and office hours.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="y9k-vu-ReH"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="400"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d48-0b-ri1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F2L-cR-KkC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2081" y="-1974"/>
+            <point key="canvasLocation" x="1291" y="-1995"/>
         </scene>
-        <!--simplenav View Controller-->
-        <scene sceneID="H71-Ul-1Pc">
+        <!--Education Page View Controller-->
+        <scene sceneID="ZhZ-CK-GVv">
             <objects>
-                <navigationController storyboardIdentifier="NAVCONTROLLER" automaticallyAdjustsScrollViewInsets="NO" id="6P2-2Y-AZI" customClass="PJ_simplenavViewController" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9MW-p9-JO0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="TAT-S7-fjk" kind="relationship" relationship="rootViewController" id="FAT-Yx-2jf"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OvW-V8-8BV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Kokoche" id="gXG-gg-vxI" customClass="PJ_EducationPageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MnJ-f8-7DO"/>
+                        <viewControllerLayoutGuide type="bottom" id="JKe-Ea-Xbf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5fq-9N-ITm">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kokoche Inc, Los Angeles CA" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="219" translatesAutoresizingMaskIntoConstraints="NO" id="CFf-eI-bLa">
+                                <rect key="frame" x="77" y="0.0" width="219" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="June 2013 – August 2013" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="219" translatesAutoresizingMaskIntoConstraints="NO" id="6TH-L8-Nlp">
+                                <rect key="frame" x="77" y="30" width="219" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Front-End Software Developer Intern" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="8za-iC-269">
+                                <rect key="frame" x="0.0" y="68" width="300" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kokoche.png" translatesAutoresizingMaskIntoConstraints="NO" id="cZZ-8o-KBe">
+                                <rect key="frame" x="9" y="0.0" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A0k-rY-Cdx">
+                                <rect key="frame" x="0.0" y="122" width="300" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Front End programming for responsive website kokoche.com  from scratch using ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Avenir-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="HTML5, PHP, JavaScript ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Avenir-Heavy"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="and ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Avenir-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="CSS">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Avenir-Heavy"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Developed and programmed a WordPress theme from Photoshop design
+Contributed in important user interface design decision for the website
+Tested website on multiple browsers and multiple devices (of varying screen sizes).
+Added Social Network Integration with the website.                                               </string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Avenir-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Website : www.kokoche.com">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Avenir-Heavy"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l49-j9-22P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1635" y="-1998"/>
+            <point key="canvasLocation" x="303" y="-1767"/>
         </scene>
     </scenes>
     <resources>
+        <image name="ITP_Logo.jpeg" width="256" height="256"/>
         <image name="USC.png" width="300" height="100"/>
+        <image name="kokoche.png" width="100" height="100"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

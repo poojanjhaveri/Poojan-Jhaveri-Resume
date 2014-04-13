@@ -7,11 +7,13 @@
 //
 
 #import "PJ_ContactViewCell.h"
-#import "PJ_simplenavViewController.h"
 
 @interface PJ_ContactViewCell ()
-
+@property (weak, nonatomic) IBOutlet UIButton *GithubButton;
+@property (weak, nonatomic) IBOutlet UIButton *LinkedInButton;
+@property (weak, nonatomic) IBOutlet UIButton *twitterButton;
 @property(weak,nonatomic) IBOutlet UILabel *contactTitle;
+@property (weak, nonatomic) IBOutlet UIButton *facebookButton;
 @end
 
 
@@ -37,7 +39,6 @@
     
     self.clipsToBounds = NO;
     
-    
     UIPanGestureRecognizer *gestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(performPanning:)];
    // [self addGestureRecognizer:gestureRecognizer];
     
@@ -57,6 +58,26 @@
         }
     }
     
+}
+
+- (IBAction)facebookButtonClicked:(id)sender {
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.facebook.com/poojanjhaveri"]];
+}
+
+- (IBAction)GithubButtonClicked:(id)sender {
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/poojanjhaveri"]];
+}
+
+- (IBAction)TwitterButtonClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/iPoojan"]];
+    
+}
+
+- (IBAction)LinkedInButtonClicked:(id)sender {
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.linkedin.com/in/poojanjhaveri"]];
 }
 
 /*

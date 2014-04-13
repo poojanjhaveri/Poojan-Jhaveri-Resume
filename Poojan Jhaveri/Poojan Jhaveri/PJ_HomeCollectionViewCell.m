@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 Poojan Jhaveri. All rights reserved.
 //
 
-#import "PJ_CollectionViewCell.h"
+#import "PJ_HomeCollectionViewCell.h"
 
-@interface PJ_CollectionViewCell ()
+@interface PJ_HomeCollectionViewCell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *helloWorld;
 
 
 @end
 
-@implementation PJ_CollectionViewCell
+@implementation PJ_HomeCollectionViewCell
 
 -(void)FormatView
 {

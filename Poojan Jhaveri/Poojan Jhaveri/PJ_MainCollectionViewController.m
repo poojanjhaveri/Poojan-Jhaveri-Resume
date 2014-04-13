@@ -7,7 +7,7 @@
 //
 
 #import "PJ_MainCollectionViewController.h"
-#import "PJ_CollectionViewCell.h"
+#import "PJ_HomeCollectionViewCell.h"
 #import "PJ_CollectionViewLayout.h"
 #import "PJ_EducationViewCell.h"
 #import "PJ_ContactViewCell.h"
@@ -44,6 +44,9 @@
     
     UINib *nib3 = [UINib nibWithNibName:@"Contact" bundle:nil];
     [self.collectionView registerNib:nib3 forCellWithReuseIdentifier:@"Contact"];
+    
+    UINib *nib4 = [UINib nibWithNibName:@"WorkExperience" bundle:nil];
+    [self.collectionView registerNib:nib4 forCellWithReuseIdentifier:@"WorkExperience"];
 
     
     // Do any additional setup after loading the view.
@@ -65,7 +68,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    PJ_CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Alpha" forIndexPath:indexPath];
+    PJ_HomeCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Alpha" forIndexPath:indexPath];
     
     
     switch (indexPath.row) {
@@ -87,7 +90,8 @@
             break;
             
         case 3:
-            NSLog(@" we are at %ld",(long)indexPath.row);
+         
+             cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"WorkExperience" forIndexPath:indexPath];
             break;
             
         case 4:
@@ -96,9 +100,7 @@
             
         case 5:
                NSLog(@" we are at %ld",(long)indexPath.row);
-            
-      //      cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Alpha" forIndexPath:indexPath];
-            break;
+                break;
             
         default:
             break;

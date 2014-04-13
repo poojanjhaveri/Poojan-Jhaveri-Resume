@@ -10,6 +10,10 @@
 		0E0372E918F9C925004AA69F /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0372E818F9C925004AA69F /* Home.xib */; };
 		0E0372EC18F9CBFD004AA69F /* ProfilePicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E0372EB18F9CBFD004AA69F /* ProfilePicture.jpg */; };
 		0E0372EE18F9D5D8004AA69F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0372ED18F9D5D8004AA69F /* QuartzCore.framework */; };
+		0EACBE5E18FA4EB90023EA8F /* PJ_WorkExperienceCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EACBE5D18FA4EB90023EA8F /* PJ_WorkExperienceCollectionViewCell.m */; };
+		0EACBE6018FA4ED50023EA8F /* WorkExperience.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EACBE5F18FA4ED50023EA8F /* WorkExperience.xib */; };
+		0EACBE6718FA56BE0023EA8F /* ITP_Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EACBE6618FA56BE0023EA8F /* ITP_Logo.jpeg */; };
+		0EACBE6918FA5B1C0023EA8F /* kokoche.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EACBE6818FA5B1C0023EA8F /* kokoche.png */; };
 		0EF1162518F8BFB3007A5040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF1162418F8BFB3007A5040 /* Foundation.framework */; };
 		0EF1162718F8BFB3007A5040 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF1162618F8BFB3007A5040 /* CoreGraphics.framework */; };
 		0EF1162918F8BFB3007A5040 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF1162818F8BFB3007A5040 /* UIKit.framework */; };
@@ -25,7 +29,7 @@
 		0EF1164E18F8BFB3007A5040 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF1164C18F8BFB3007A5040 /* InfoPlist.strings */; };
 		0EF1165018F8BFB3007A5040 /* Poojan_JhaveriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1164F18F8BFB3007A5040 /* Poojan_JhaveriTests.m */; };
 		0EF1165C18F8C098007A5040 /* PJ_MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1165B18F8C098007A5040 /* PJ_MainCollectionViewController.m */; };
-		0EF1166118F8C271007A5040 /* PJ_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1166018F8C271007A5040 /* PJ_CollectionViewCell.m */; };
+		0EF1166118F8C271007A5040 /* PJ_HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1166018F8C271007A5040 /* PJ_HomeCollectionViewCell.m */; };
 		0EF1166518F8C4EF007A5040 /* PJ_CollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1166418F8C4EF007A5040 /* PJ_CollectionViewLayout.m */; };
 		0EFEB46618F9DBC9005FB483 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB46518F9DBC9005FB483 /* Pacifico.ttf */; };
 		0EFEB46818F9DC3E005FB483 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB46718F9DC3E005FB483 /* fontawesome-webfont.ttf */; };
@@ -37,7 +41,6 @@
 		0EFEB47B18FA0655005FB483 /* isi_logo_red_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB47A18FA0655005FB483 /* isi_logo_red_large.png */; };
 		0EFEB48018FA10E9005FB483 /* PJ_ContactViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB47F18FA10E9005FB483 /* PJ_ContactViewCell.m */; };
 		0EFEB48218FA11D2005FB483 /* Contact.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB48118FA11D2005FB483 /* Contact.xib */; };
-		0EFEB48618FA3234005FB483 /* PJ_simplenavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB48518FA3234005FB483 /* PJ_simplenavViewController.m */; };
 		9EBEFD61F39E4074AFA7B9C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA4CC64D41243D5A26DF683 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,11 @@
 		0E0372E818F9C925004AA69F /* Home.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
 		0E0372EB18F9CBFD004AA69F /* ProfilePicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProfilePicture.jpg; sourceTree = "<group>"; };
 		0E0372ED18F9D5D8004AA69F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0EACBE5C18FA4EB90023EA8F /* PJ_WorkExperienceCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_WorkExperienceCollectionViewCell.h; sourceTree = "<group>"; };
+		0EACBE5D18FA4EB90023EA8F /* PJ_WorkExperienceCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_WorkExperienceCollectionViewCell.m; sourceTree = "<group>"; };
+		0EACBE5F18FA4ED50023EA8F /* WorkExperience.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkExperience.xib; sourceTree = "<group>"; };
+		0EACBE6618FA56BE0023EA8F /* ITP_Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ITP_Logo.jpeg; sourceTree = "<group>"; };
+		0EACBE6818FA5B1C0023EA8F /* kokoche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kokoche.png; sourceTree = "<group>"; };
 		0EF1162118F8BFB3007A5040 /* Poojan Jhaveri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poojan Jhaveri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF1162418F8BFB3007A5040 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EF1162618F8BFB3007A5040 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,8 +84,8 @@
 		0EF1164F18F8BFB3007A5040 /* Poojan_JhaveriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poojan_JhaveriTests.m; sourceTree = "<group>"; };
 		0EF1165A18F8C098007A5040 /* PJ_MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_MainCollectionViewController.h; sourceTree = "<group>"; };
 		0EF1165B18F8C098007A5040 /* PJ_MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_MainCollectionViewController.m; sourceTree = "<group>"; };
-		0EF1165F18F8C271007A5040 /* PJ_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_CollectionViewCell.h; sourceTree = "<group>"; };
-		0EF1166018F8C271007A5040 /* PJ_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_CollectionViewCell.m; sourceTree = "<group>"; };
+		0EF1165F18F8C271007A5040 /* PJ_HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		0EF1166018F8C271007A5040 /* PJ_HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_HomeCollectionViewCell.m; sourceTree = "<group>"; };
 		0EF1166318F8C4EF007A5040 /* PJ_CollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_CollectionViewLayout.h; sourceTree = "<group>"; };
 		0EF1166418F8C4EF007A5040 /* PJ_CollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_CollectionViewLayout.m; sourceTree = "<group>"; };
 		0EFEB46518F9DBC9005FB483 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
@@ -94,8 +102,6 @@
 		0EFEB47E18FA10E9005FB483 /* PJ_ContactViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_ContactViewCell.h; sourceTree = "<group>"; };
 		0EFEB47F18FA10E9005FB483 /* PJ_ContactViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_ContactViewCell.m; sourceTree = "<group>"; };
 		0EFEB48118FA11D2005FB483 /* Contact.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Contact.xib; sourceTree = "<group>"; };
-		0EFEB48418FA3234005FB483 /* PJ_simplenavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_simplenavViewController.h; sourceTree = "<group>"; };
-		0EFEB48518FA3234005FB483 /* PJ_simplenavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_simplenavViewController.m; sourceTree = "<group>"; };
 		8FA4CC64D41243D5A26DF683 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86FB282EC154267A117B277 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +135,8 @@
 		0E0372EA18F9CBD6004AA69F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0EACBE6818FA5B1C0023EA8F /* kokoche.png */,
+				0EACBE6618FA56BE0023EA8F /* ITP_Logo.jpeg */,
 				0EFEB47A18FA0655005FB483 /* isi_logo_red_large.png */,
 				0EFEB47818FA0226005FB483 /* USC.png */,
 				0E0372EB18F9CBFD004AA69F /* ProfilePicture.jpg */,
@@ -224,8 +232,6 @@
 			children = (
 				0EF1165A18F8C098007A5040 /* PJ_MainCollectionViewController.h */,
 				0EF1165B18F8C098007A5040 /* PJ_MainCollectionViewController.m */,
-				0EF1165F18F8C271007A5040 /* PJ_CollectionViewCell.h */,
-				0EF1166018F8C271007A5040 /* PJ_CollectionViewCell.m */,
 				0EF1166318F8C4EF007A5040 /* PJ_CollectionViewLayout.h */,
 				0EF1166418F8C4EF007A5040 /* PJ_CollectionViewLayout.m */,
 			);
@@ -235,6 +241,8 @@
 		0EF1166618F8F99D007A5040 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0EF1165F18F8C271007A5040 /* PJ_HomeCollectionViewCell.h */,
+				0EF1166018F8C271007A5040 /* PJ_HomeCollectionViewCell.m */,
 				0E0372E818F9C925004AA69F /* Home.xib */,
 			);
 			name = Home;
@@ -274,6 +282,9 @@
 		0EFEB47C18FA0E5D005FB483 /* Work Experience */ = {
 			isa = PBXGroup;
 			children = (
+				0EACBE5C18FA4EB90023EA8F /* PJ_WorkExperienceCollectionViewCell.h */,
+				0EACBE5D18FA4EB90023EA8F /* PJ_WorkExperienceCollectionViewCell.m */,
+				0EACBE5F18FA4ED50023EA8F /* WorkExperience.xib */,
 			);
 			name = "Work Experience";
 			sourceTree = "<group>";
@@ -281,21 +292,11 @@
 		0EFEB47D18FA1093005FB483 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
-				0EFEB48318FA320E005FB483 /* Simplenav */,
 				0EFEB47E18FA10E9005FB483 /* PJ_ContactViewCell.h */,
 				0EFEB47F18FA10E9005FB483 /* PJ_ContactViewCell.m */,
 				0EFEB48118FA11D2005FB483 /* Contact.xib */,
 			);
 			name = Contact;
-			sourceTree = "<group>";
-		};
-		0EFEB48318FA320E005FB483 /* Simplenav */ = {
-			isa = PBXGroup;
-			children = (
-				0EFEB48418FA3234005FB483 /* PJ_simplenavViewController.h */,
-				0EFEB48518FA3234005FB483 /* PJ_simplenavViewController.m */,
-			);
-			name = Simplenav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +388,9 @@
 				0EFEB46618F9DBC9005FB483 /* Pacifico.ttf in Resources */,
 				0EF1162F18F8BFB3007A5040 /* InfoPlist.strings in Resources */,
 				0E0372E918F9C925004AA69F /* Home.xib in Resources */,
+				0EACBE6718FA56BE0023EA8F /* ITP_Logo.jpeg in Resources */,
+				0EACBE6018FA4ED50023EA8F /* WorkExperience.xib in Resources */,
+				0EACBE6918FA5B1C0023EA8F /* kokoche.png in Resources */,
 				0EF1163818F8BFB3007A5040 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,11 +444,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EFEB47318F9F799005FB483 /* PJ_EducationPageViewController.m in Sources */,
-				0EFEB48618FA3234005FB483 /* PJ_simplenavViewController.m in Sources */,
 				0EF1166518F8C4EF007A5040 /* PJ_CollectionViewLayout.m in Sources */,
 				0EFEB47718F9FA26005FB483 /* PJ_EducationPage2ViewController.m in Sources */,
+				0EACBE5E18FA4EB90023EA8F /* PJ_WorkExperienceCollectionViewCell.m in Sources */,
 				0EFEB46F18F9EDA9005FB483 /* PJ_EducationViewCell.m in Sources */,
-				0EF1166118F8C271007A5040 /* PJ_CollectionViewCell.m in Sources */,
+				0EF1166118F8C271007A5040 /* PJ_HomeCollectionViewCell.m in Sources */,
 				0EF1163518F8BFB3007A5040 /* PJ_AppDelegate.m in Sources */,
 				0EF1163118F8BFB3007A5040 /* main.m in Sources */,
 				0EFEB48018FA10E9005FB483 /* PJ_ContactViewCell.m in Sources */,

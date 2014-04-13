@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PJ_CollectionViewCell.h"
+#import "PJ_HomeCollectionViewCell.h"
 
 
 @interface PJ_EducationViewCell : UICollectionViewCell<UIPageViewControllerDataSource,UIPageViewControllerDelegate>

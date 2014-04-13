@@ -10,7 +10,7 @@
 
 @protocol CollectionCellDelegate;
 
-@interface PJ_CollectionViewCell : UICollectionViewCell
+@interface PJ_HomeCollectionViewCell : UICollectionViewCell
 
 @property (nonatomic, strong) NSIndexPath *indexPath;
 @property (weak, nonatomic) IBOutlet UIView *displayView;

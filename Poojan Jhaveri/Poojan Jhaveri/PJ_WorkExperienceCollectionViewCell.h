@@ -1,5 +1,5 @@
 //
-//  PJ_ContactViewCell.h
+//  PJ_WorkExperienceCollectionViewCell.h
 //  Poojan Jhaveri
 //
 //  Created by Poojan Jhaveri on 4/12/14.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PJ_HomeCollectionViewCell.h"
 
-@interface PJ_ContactViewCell : UICollectionViewCell
+@interface PJ_WorkExperienceCollectionViewCell : UICollectionViewCell<UIPageViewControllerDataSource,UIPageViewControllerDelegate>
 
 @property (nonatomic, strong) NSIndexPath *indexPath;
 @property (weak, nonatomic) IBOutlet UIView *displayView;

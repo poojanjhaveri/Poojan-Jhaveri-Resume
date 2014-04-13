@@ -7,7 +7,7 @@
 //
 
 #import "PJ_CollectionViewLayout.h"
-#import "PJ_CollectionViewCell.h"
+#import "PJ_HomeCollectionViewCell.h"
 
 static const NSUInteger ANDYBelowCellOffset = 25;
 static const NSUInteger ANDYBelowCellHeight = 7;
