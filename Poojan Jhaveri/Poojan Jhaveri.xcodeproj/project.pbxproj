@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0372E918F9C925004AA69F /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0372E818F9C925004AA69F /* Home.xib */; };
+		0E0372EC18F9CBFD004AA69F /* ProfilePicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E0372EB18F9CBFD004AA69F /* ProfilePicture.jpg */; };
+		0E0372EE18F9D5D8004AA69F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0372ED18F9D5D8004AA69F /* QuartzCore.framework */; };
 		0EF1162518F8BFB3007A5040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF1162418F8BFB3007A5040 /* Foundation.framework */; };
 		0EF1162718F8BFB3007A5040 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF1162618F8BFB3007A5040 /* CoreGraphics.framework */; };
 		0EF1162918F8BFB3007A5040 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF1162818F8BFB3007A5040 /* UIKit.framework */; };
@@ -21,6 +24,21 @@
 		0EF1164618F8BFB3007A5040 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF1162818F8BFB3007A5040 /* UIKit.framework */; };
 		0EF1164E18F8BFB3007A5040 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF1164C18F8BFB3007A5040 /* InfoPlist.strings */; };
 		0EF1165018F8BFB3007A5040 /* Poojan_JhaveriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1164F18F8BFB3007A5040 /* Poojan_JhaveriTests.m */; };
+		0EF1165C18F8C098007A5040 /* PJ_MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1165B18F8C098007A5040 /* PJ_MainCollectionViewController.m */; };
+		0EF1166118F8C271007A5040 /* PJ_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1166018F8C271007A5040 /* PJ_CollectionViewCell.m */; };
+		0EF1166518F8C4EF007A5040 /* PJ_CollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1166418F8C4EF007A5040 /* PJ_CollectionViewLayout.m */; };
+		0EFEB46618F9DBC9005FB483 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB46518F9DBC9005FB483 /* Pacifico.ttf */; };
+		0EFEB46818F9DC3E005FB483 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB46718F9DC3E005FB483 /* fontawesome-webfont.ttf */; };
+		0EFEB46C18F9EBF7005FB483 /* Education.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB46B18F9EBF7005FB483 /* Education.xib */; };
+		0EFEB46F18F9EDA9005FB483 /* PJ_EducationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB46E18F9EDA9005FB483 /* PJ_EducationViewCell.m */; };
+		0EFEB47318F9F799005FB483 /* PJ_EducationPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB47218F9F799005FB483 /* PJ_EducationPageViewController.m */; };
+		0EFEB47718F9FA26005FB483 /* PJ_EducationPage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB47618F9FA26005FB483 /* PJ_EducationPage2ViewController.m */; };
+		0EFEB47918FA0226005FB483 /* USC.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB47818FA0226005FB483 /* USC.png */; };
+		0EFEB47B18FA0655005FB483 /* isi_logo_red_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB47A18FA0655005FB483 /* isi_logo_red_large.png */; };
+		0EFEB48018FA10E9005FB483 /* PJ_ContactViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB47F18FA10E9005FB483 /* PJ_ContactViewCell.m */; };
+		0EFEB48218FA11D2005FB483 /* Contact.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEB48118FA11D2005FB483 /* Contact.xib */; };
+		0EFEB48618FA3234005FB483 /* PJ_simplenavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEB48518FA3234005FB483 /* PJ_simplenavViewController.m */; };
+		9EBEFD61F39E4074AFA7B9C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA4CC64D41243D5A26DF683 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0372E818F9C925004AA69F /* Home.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		0E0372EB18F9CBFD004AA69F /* ProfilePicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProfilePicture.jpg; sourceTree = "<group>"; };
+		0E0372ED18F9D5D8004AA69F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0EF1162118F8BFB3007A5040 /* Poojan Jhaveri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poojan Jhaveri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF1162418F8BFB3007A5040 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EF1162618F8BFB3007A5040 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +74,30 @@
 		0EF1164B18F8BFB3007A5040 /* Poojan JhaveriTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Poojan JhaveriTests-Info.plist"; sourceTree = "<group>"; };
 		0EF1164D18F8BFB3007A5040 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EF1164F18F8BFB3007A5040 /* Poojan_JhaveriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poojan_JhaveriTests.m; sourceTree = "<group>"; };
+		0EF1165A18F8C098007A5040 /* PJ_MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_MainCollectionViewController.h; sourceTree = "<group>"; };
+		0EF1165B18F8C098007A5040 /* PJ_MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_MainCollectionViewController.m; sourceTree = "<group>"; };
+		0EF1165F18F8C271007A5040 /* PJ_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_CollectionViewCell.h; sourceTree = "<group>"; };
+		0EF1166018F8C271007A5040 /* PJ_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_CollectionViewCell.m; sourceTree = "<group>"; };
+		0EF1166318F8C4EF007A5040 /* PJ_CollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_CollectionViewLayout.h; sourceTree = "<group>"; };
+		0EF1166418F8C4EF007A5040 /* PJ_CollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_CollectionViewLayout.m; sourceTree = "<group>"; };
+		0EFEB46518F9DBC9005FB483 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		0EFEB46718F9DC3E005FB483 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		0EFEB46B18F9EBF7005FB483 /* Education.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Education.xib; sourceTree = "<group>"; };
+		0EFEB46D18F9EDA9005FB483 /* PJ_EducationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_EducationViewCell.h; sourceTree = "<group>"; };
+		0EFEB46E18F9EDA9005FB483 /* PJ_EducationViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_EducationViewCell.m; sourceTree = "<group>"; };
+		0EFEB47118F9F799005FB483 /* PJ_EducationPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_EducationPageViewController.h; sourceTree = "<group>"; };
+		0EFEB47218F9F799005FB483 /* PJ_EducationPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_EducationPageViewController.m; sourceTree = "<group>"; };
+		0EFEB47518F9FA26005FB483 /* PJ_EducationPage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_EducationPage2ViewController.h; sourceTree = "<group>"; };
+		0EFEB47618F9FA26005FB483 /* PJ_EducationPage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_EducationPage2ViewController.m; sourceTree = "<group>"; };
+		0EFEB47818FA0226005FB483 /* USC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USC.png; sourceTree = "<group>"; };
+		0EFEB47A18FA0655005FB483 /* isi_logo_red_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isi_logo_red_large.png; sourceTree = "<group>"; };
+		0EFEB47E18FA10E9005FB483 /* PJ_ContactViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_ContactViewCell.h; sourceTree = "<group>"; };
+		0EFEB47F18FA10E9005FB483 /* PJ_ContactViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_ContactViewCell.m; sourceTree = "<group>"; };
+		0EFEB48118FA11D2005FB483 /* Contact.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Contact.xib; sourceTree = "<group>"; };
+		0EFEB48418FA3234005FB483 /* PJ_simplenavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJ_simplenavViewController.h; sourceTree = "<group>"; };
+		0EFEB48518FA3234005FB483 /* PJ_simplenavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJ_simplenavViewController.m; sourceTree = "<group>"; };
+		8FA4CC64D41243D5A26DF683 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86FB282EC154267A117B277 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +105,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0372EE18F9D5D8004AA69F /* QuartzCore.framework in Frameworks */,
 				0EF1162718F8BFB3007A5040 /* CoreGraphics.framework in Frameworks */,
 				0EF1162918F8BFB3007A5040 /* UIKit.framework in Frameworks */,
 				0EF1162518F8BFB3007A5040 /* Foundation.framework in Frameworks */,
+				9EBEFD61F39E4074AFA7B9C5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +126,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0372EA18F9CBD6004AA69F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEB47A18FA0655005FB483 /* isi_logo_red_large.png */,
+				0EFEB47818FA0226005FB483 /* USC.png */,
+				0E0372EB18F9CBFD004AA69F /* ProfilePicture.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		0EF1161818F8BFB3007A5040 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +143,7 @@
 				0EF1164918F8BFB3007A5040 /* Poojan JhaveriTests */,
 				0EF1162318F8BFB3007A5040 /* Frameworks */,
 				0EF1162218F8BFB3007A5040 /* Products */,
+				C86FB282EC154267A117B277 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +159,12 @@
 		0EF1162318F8BFB3007A5040 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E0372ED18F9D5D8004AA69F /* QuartzCore.framework */,
 				0EF1162418F8BFB3007A5040 /* Foundation.framework */,
 				0EF1162618F8BFB3007A5040 /* CoreGraphics.framework */,
 				0EF1162818F8BFB3007A5040 /* UIKit.framework */,
 				0EF1164318F8BFB3007A5040 /* XCTest.framework */,
+				8FA4CC64D41243D5A26DF683 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +172,13 @@
 		0EF1162A18F8BFB3007A5040 /* Poojan Jhaveri */ = {
 			isa = PBXGroup;
 			children = (
+				0EFEB47D18FA1093005FB483 /* Contact */,
+				0EFEB47C18FA0E5D005FB483 /* Work Experience */,
+				0EFEB46A18F9EBC4005FB483 /* Education */,
+				0EFEB46918F9EBBA005FB483 /* Fonts */,
+				0E0372EA18F9CBD6004AA69F /* Images */,
+				0EF1166618F8F99D007A5040 /* Home */,
+				0EF1165918F8C039007A5040 /* Main-CollectionController */,
 				0EF1163318F8BFB3007A5040 /* PJ_AppDelegate.h */,
 				0EF1163418F8BFB3007A5040 /* PJ_AppDelegate.m */,
 				0EF1163618F8BFB3007A5040 /* Main.storyboard */,
@@ -152,6 +219,85 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0EF1165918F8C039007A5040 /* Main-CollectionController */ = {
+			isa = PBXGroup;
+			children = (
+				0EF1165A18F8C098007A5040 /* PJ_MainCollectionViewController.h */,
+				0EF1165B18F8C098007A5040 /* PJ_MainCollectionViewController.m */,
+				0EF1165F18F8C271007A5040 /* PJ_CollectionViewCell.h */,
+				0EF1166018F8C271007A5040 /* PJ_CollectionViewCell.m */,
+				0EF1166318F8C4EF007A5040 /* PJ_CollectionViewLayout.h */,
+				0EF1166418F8C4EF007A5040 /* PJ_CollectionViewLayout.m */,
+			);
+			name = "Main-CollectionController";
+			sourceTree = "<group>";
+		};
+		0EF1166618F8F99D007A5040 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0E0372E818F9C925004AA69F /* Home.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		0EFEB46918F9EBBA005FB483 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEB46718F9DC3E005FB483 /* fontawesome-webfont.ttf */,
+				0EFEB46518F9DBC9005FB483 /* Pacifico.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		0EFEB46A18F9EBC4005FB483 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEB47018F9F77B005FB483 /* EducationPage */,
+				0EFEB46B18F9EBF7005FB483 /* Education.xib */,
+				0EFEB46D18F9EDA9005FB483 /* PJ_EducationViewCell.h */,
+				0EFEB46E18F9EDA9005FB483 /* PJ_EducationViewCell.m */,
+			);
+			name = Education;
+			sourceTree = "<group>";
+		};
+		0EFEB47018F9F77B005FB483 /* EducationPage */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEB47118F9F799005FB483 /* PJ_EducationPageViewController.h */,
+				0EFEB47218F9F799005FB483 /* PJ_EducationPageViewController.m */,
+				0EFEB47518F9FA26005FB483 /* PJ_EducationPage2ViewController.h */,
+				0EFEB47618F9FA26005FB483 /* PJ_EducationPage2ViewController.m */,
+			);
+			name = EducationPage;
+			sourceTree = "<group>";
+		};
+		0EFEB47C18FA0E5D005FB483 /* Work Experience */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Work Experience";
+			sourceTree = "<group>";
+		};
+		0EFEB47D18FA1093005FB483 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEB48318FA320E005FB483 /* Simplenav */,
+				0EFEB47E18FA10E9005FB483 /* PJ_ContactViewCell.h */,
+				0EFEB47F18FA10E9005FB483 /* PJ_ContactViewCell.m */,
+				0EFEB48118FA11D2005FB483 /* Contact.xib */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		0EFEB48318FA320E005FB483 /* Simplenav */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEB48418FA3234005FB483 /* PJ_simplenavViewController.h */,
+				0EFEB48518FA3234005FB483 /* PJ_simplenavViewController.m */,
+			);
+			name = Simplenav;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF1165318F8BFB3007A5040 /* Build configuration list for PBXNativeTarget "Poojan Jhaveri" */;
 			buildPhases = (
+				43312B7121E94F728DFF3A96 /* Check Pods Manifest.lock */,
 				0EF1161D18F8BFB3007A5040 /* Sources */,
 				0EF1161E18F8BFB3007A5040 /* Frameworks */,
 				0EF1161F18F8BFB3007A5040 /* Resources */,
+				0E1DE703F92C407F800808EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +377,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFEB47B18FA0655005FB483 /* isi_logo_red_large.png in Resources */,
+				0EFEB48218FA11D2005FB483 /* Contact.xib in Resources */,
+				0EFEB47918FA0226005FB483 /* USC.png in Resources */,
 				0EF1163D18F8BFB3007A5040 /* Images.xcassets in Resources */,
+				0E0372EC18F9CBFD004AA69F /* ProfilePicture.jpg in Resources */,
+				0EFEB46C18F9EBF7005FB483 /* Education.xib in Resources */,
+				0EFEB46818F9DC3E005FB483 /* fontawesome-webfont.ttf in Resources */,
+				0EFEB46618F9DBC9005FB483 /* Pacifico.ttf in Resources */,
 				0EF1162F18F8BFB3007A5040 /* InfoPlist.strings in Resources */,
+				0E0372E918F9C925004AA69F /* Home.xib in Resources */,
 				0EF1163818F8BFB3007A5040 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,14 +401,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E1DE703F92C407F800808EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43312B7121E94F728DFF3A96 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EF1161D18F8BFB3007A5040 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFEB47318F9F799005FB483 /* PJ_EducationPageViewController.m in Sources */,
+				0EFEB48618FA3234005FB483 /* PJ_simplenavViewController.m in Sources */,
+				0EF1166518F8C4EF007A5040 /* PJ_CollectionViewLayout.m in Sources */,
+				0EFEB47718F9FA26005FB483 /* PJ_EducationPage2ViewController.m in Sources */,
+				0EFEB46F18F9EDA9005FB483 /* PJ_EducationViewCell.m in Sources */,
+				0EF1166118F8C271007A5040 /* PJ_CollectionViewCell.m in Sources */,
 				0EF1163518F8BFB3007A5040 /* PJ_AppDelegate.m in Sources */,
 				0EF1163118F8BFB3007A5040 /* main.m in Sources */,
+				0EFEB48018FA10E9005FB483 /* PJ_ContactViewCell.m in Sources */,
 				0EF1163B18F8BFB3007A5040 /* PJ_ViewController.m in Sources */,
+				0EF1165C18F8C098007A5040 /* PJ_MainCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +571,7 @@
 		};
 		0EF1165418F8BFB3007A5040 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86FB282EC154267A117B277 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +585,7 @@
 		};
 		0EF1165518F8BFB3007A5040 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86FB282EC154267A117B277 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +656,7 @@
 				0EF1165518F8BFB3007A5040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF1165618F8BFB3007A5040 /* Build configuration list for PBXNativeTarget "Poojan JhaveriTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +665,7 @@
 				0EF1165818F8BFB3007A5040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

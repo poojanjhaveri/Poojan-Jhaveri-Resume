@@ -7,11 +7,27 @@
 //
 
 #import "PJ_AppDelegate.h"
+#import "PJ_CollectionViewLayout.h"
+#import "PJ_MainCollectionViewController.h"
+
 
 @implementation PJ_AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    PJ_CollectionViewLayout *layout = [[PJ_CollectionViewLayout alloc] init];
+    CGRect bounds = [[UIScreen mainScreen] bounds];
+    layout.actualCellHeight = CGRectGetHeight(bounds) - 30.0f;
+    layout.visibleCellHeight = 60;
+    
+    PJ_MainCollectionViewController *stackController = [[PJ_MainCollectionViewController alloc] initWithCollectionViewLayout:layout];
+    self.window.rootViewController = stackController;
+    
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
