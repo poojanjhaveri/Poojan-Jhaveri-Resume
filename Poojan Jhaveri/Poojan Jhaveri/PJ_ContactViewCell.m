@@ -35,30 +35,12 @@
     self.layer.shadowColor = [UIColor blackColor].CGColor;
     self.layer.shadowOffset = CGSizeMake(0, -2);
     self.layer.shadowOpacity = 0.5f;
-    self.layer.shadowPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:10].CGPath;
     
     self.clipsToBounds = NO;
     
-    UIPanGestureRecognizer *gestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(performPanning:)];
-   // [self addGestureRecognizer:gestureRecognizer];
     
 }
 
-
--(void)performPanning:(UIPanGestureRecognizer *)recognizer
-{
-    CGPoint translation = [recognizer translationInView:self];
-    recognizer.view.center = CGPointMake(recognizer.view.center.x,
-                                         translation.y + recognizer.view.center.y);
-    [recognizer setTranslation:CGPointMake(0, 0) inView:self];
-    
-    if (recognizer.state == UIGestureRecognizerStateEnded) {
-        if ([self.delegate respondsToSelector:@selector(CellDidPan:atIndexPath:)]) {
-            [self.delegate CellDidPan:self atIndexPath:self.indexPath];
-        }
-    }
-    
-}
 
 - (IBAction)facebookButtonClicked:(id)sender {
     
@@ -79,6 +61,8 @@
     
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.linkedin.com/in/poojanjhaveri"]];
 }
+
+
 
 /*
 // Only override drawRect: if you perform custom drawing.

@@ -47,6 +47,12 @@
     
     UINib *nib4 = [UINib nibWithNibName:@"WorkExperience" bundle:nil];
     [self.collectionView registerNib:nib4 forCellWithReuseIdentifier:@"WorkExperience"];
+    
+    UINib *nib5 = [UINib nibWithNibName:@"Projects" bundle:nil];
+    [self.collectionView registerNib:nib5 forCellWithReuseIdentifier:@"Projects"];
+    
+    UINib *nib6 = [UINib nibWithNibName:@"Interests" bundle:nil];
+    [self.collectionView registerNib:nib6 forCellWithReuseIdentifier:@"Interests"];
 
     
     // Do any additional setup after loading the view.
@@ -74,19 +80,17 @@
     switch (indexPath.row) {
         case 0:
         {
-            NSLog(@" we are at %ld",(long)indexPath.row);
-             cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Contact" forIndexPath:indexPath];
+        cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Contact" forIndexPath:indexPath];
             break;
         }
         case 1:
         {
-            NSLog(@" we are at %ld",(long)indexPath.row);
            
-           
+        cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Interests" forIndexPath:indexPath];
             break;
         }
         case 2:
-            NSLog(@" we are at %ld",(long)indexPath.row);
+            cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Projects" forIndexPath:indexPath];
             break;
             
         case 3:
@@ -99,7 +103,6 @@
             break;
             
         case 5:
-               NSLog(@" we are at %ld",(long)indexPath.row);
                 break;
             
         default:
@@ -134,7 +137,7 @@
     }
 }
 
-- (void)CellDidPan:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
+- (void)PassDidPan:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
     [self animateSelectionAtIndexPath:indexPath];
 }
@@ -142,16 +145,12 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     [self animateSelectionAtIndexPath:indexPath];
-    
-    if ([self respondsToSelector:@selector(cardStackController:didSelectItemAtIndexPath:)]) {
-        [self cardStackController:self didSelectItemAtIndexPath:indexPath];
-    }
 }
 
 - (void)animateSelectionAtIndexPath:(NSIndexPath *)indexPath
 {
     [self.collectionView performBatchUpdates:^{
-        [self selectCardAtIndexPath:indexPath];
+        [self selectPassAtIndexPath:indexPath];
     } completion:nil];
     
     
@@ -160,9 +159,9 @@
 }
 
 
-- (void)selectCardAtIndexPath:(NSIndexPath *)indexPath
+- (void)selectPassAtIndexPath:(NSIndexPath *)indexPath
 {
-    DetailViewState cardState = [self cardStateAtIndexPath:indexPath];
+    DetailViewState cardState = [self passStateAtIndexPath:indexPath];
     
     switch (cardState) {
         case DetailViewStateNormal:
@@ -178,17 +177,13 @@
 
 
 
-- (DetailViewState)cardStateAtIndexPath:(NSIndexPath *)indexPath
+- (DetailViewState)passStateAtIndexPath:(NSIndexPath *)indexPath
 {
     NSMutableArray *cards = self.passcontrollers;
     NSNumber *cardState = cards[indexPath.row];
     return [cardState intValue];
 }
 
-- (void)cardStackController:(PJ_MainCollectionViewController *)cardStackController didSelectItemAtIndexPath:(NSIndexPath *)indexPath
-{
-//    NSLog(@"yay!");
-}
 
 - (NSMutableArray *)passcontrollers
 {

@@ -14,11 +14,11 @@
 
 @interface PJ_CollectionViewLayout : UICollectionViewLayout
 
-@property (nonatomic) NSUInteger visibleCellHeight;
-@property (nonatomic) NSUInteger actualCellHeight;
+@property (nonatomic) NSUInteger vCellHeight;
+@property (nonatomic) NSUInteger rCellHeight;
 @property (nonatomic, weak) id <LayoutDataSource> dataSource;
 @end
 
 @protocol LayoutDataSource <NSObject>
-- (DetailViewState)cardStateAtIndexPath:(NSIndexPath *)indexPath;
+- (DetailViewState)passStateAtIndexPath:(NSIndexPath *)indexPath;
 @end

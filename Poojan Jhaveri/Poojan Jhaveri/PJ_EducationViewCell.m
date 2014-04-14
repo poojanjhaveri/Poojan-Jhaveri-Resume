@@ -33,24 +33,15 @@
       [self initializePageViewController];
 }
 
--(id)initWithCoder:(NSCoder *)aDecoder
-{
-    if(self=[super initWithCoder:aDecoder])
-    {
-      
-    }
-    return self;
-}
 
 -(void)FormatView
 {
     [self.educationTitle setFont:[UIFont fontWithName:@"Pacifico" size:30.0f]];
     self.displayView.layer.cornerRadius = 5;
-  //  [self.helloWorld setFont:[UIFont fontWithName:@"Pacifico" size:30.0f]];
     self.layer.shadowColor = [UIColor blackColor].CGColor;
     self.layer.shadowOffset = CGSizeMake(0, -2);
     self.layer.shadowOpacity = 0.5f;
-    self.layer.shadowPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:10].CGPath;
+
     
     self.clipsToBounds = NO;
     
@@ -92,8 +83,8 @@
     [recognizer setTranslation:CGPointMake(0, 0) inView:self];
     
     if (recognizer.state == UIGestureRecognizerStateEnded) {
-        if ([self.delegate respondsToSelector:@selector(CellDidPan:atIndexPath:)]) {
-            [self.delegate CellDidPan:self atIndexPath:self.indexPath];
+        if ([self.delegate respondsToSelector:@selector(PassDidPan:atIndexPath:)]) {
+            [self.delegate PassDidPan:self atIndexPath:self.indexPath];
         }
     }
     

@@ -1,22 +1,21 @@
 //
-//  PJ_WorkExperienceCollectionViewCell.m
+//  PJ_ProjectsCollectionViewCell.m
 //  Poojan Jhaveri
 //
-//  Created by Poojan Jhaveri on 4/12/14.
+//  Created by Poojan Jhaveri on 4/13/14.
 //  Copyright (c) 2014 Poojan Jhaveri. All rights reserved.
 //
 
-#import "PJ_WorkExperienceCollectionViewCell.h"
+#import "PJ_ProjectsCollectionViewCell.h"
 #import "PJ_EducationPageViewController.h"
 
-@interface PJ_WorkExperienceCollectionViewCell ()
+@interface PJ_ProjectsCollectionViewCell ()
 @property(strong,nonatomic) UIPageViewController *pageViewController;
-@property (weak, nonatomic) IBOutlet UILabel *workExperienceTitle;
+@property (weak, nonatomic) IBOutlet UILabel *projectTitle;
 
 @end
 
-
-@implementation PJ_WorkExperienceCollectionViewCell
+@implementation PJ_ProjectsCollectionViewCell
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -32,18 +31,9 @@
     [self initializePageViewController];
 }
 
--(id)initWithCoder:(NSCoder *)aDecoder
-{
-    if(self=[super initWithCoder:aDecoder])
-    {
-        
-    }
-    return self;
-}
-
 -(void)FormatView
 {
-    [self.workExperienceTitle setFont:[UIFont fontWithName:@"Pacifico" size:30.0f]];
+    [self.projectTitle setFont:[UIFont fontWithName:@"Pacifico" size:30.0f]];
     self.displayView.layer.cornerRadius = 5;
     //  [self.helloWorld setFont:[UIFont fontWithName:@"Pacifico" size:30.0f]];
     self.layer.shadowColor = [UIColor blackColor].CGColor;
@@ -62,7 +52,7 @@
     self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     self.pageViewController.dataSource = self;
     
-    [[self.pageViewController view] setFrame:CGRectMake(10, 65, 300, 400)];
+    [[self.pageViewController view] setFrame:CGRectMake(10, 65, 300, 380)];
     
     [self.pageViewController setDelegate:self];
     
@@ -120,7 +110,7 @@
     
     index++;
     
-    if (index == 4) {
+    if (index == 9) {
         return nil;
     }
     
@@ -132,25 +122,54 @@
 - (PJ_EducationPageViewController *)viewControllerAtIndex:(NSUInteger)index {
     
     PJ_EducationPageViewController *childViewController;
-    if(index==0)
-    {
-        childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"TA_ITP"];
-    }
-    else if(index==1){
-        
-        childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Kokoche"];
-    }
-    else if(index==2){
-        
-        childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"devit"];
-    }
-    else {
-        
-        childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"youthconnect"];
-    }
-    
-    
+    switch (index) {
+        case 0:
+            childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ProjectMenu"];
+            break;
+            
+        case 1:
+             childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ISO_DOC"];
+            break;
+            
+            
+        case 2:
+             childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"navkar_mantra"];
+            break;
+            
+            
+        case 3:
+            childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"iso_training"];
+            break;
+            
+        case 4:
+            childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"instagram"];
+            break;
+            
+        case 5:
+            childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"symmetricity"];
+            break;
+            
+            
+        case 6:
+            childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"socialsearch"];
+            break;
+            
+        case 7:
+            childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"duckhunt"];
+            break;
+            
+        case 8:
+            childViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"factory"];
+            break;
 
+            
+        default:
+            break;
+    }
+    
+    
+    
+    
     childViewController.index = index;
     
     return childViewController;
@@ -158,16 +177,14 @@
 }
 
 
-- (NSInteger)presentationCountForPageViewController:(UIPageViewController *)pageViewController {
-    // The number of items reflected in the page indicator.
-    
-    return 4;
-}
 
-- (NSInteger)presentationIndexForPageViewController:(UIPageViewController *)pageViewController {
-    // The selected item reflected in the page indicator.
-    return 0;
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect
+{
+    // Drawing code
 }
-
+*/
 
 @end

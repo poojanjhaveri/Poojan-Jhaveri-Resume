@@ -19,5 +19,5 @@
 @end
 
 @protocol CollectionCellDelegate <NSObject>
-- (void)CellDidPan:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
+- (void)PassDidPan:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
 @end
